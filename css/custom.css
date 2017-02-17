@@ -1,0 +1,190 @@
+
+@font-face {
+	font-family: 'nevis';
+	src: url('fonts/nevis.tff');
+}
+
+#body-custom {
+	font-family: 'HelveticaNeue-Light', 'nevis', Helvetica, Arial, sans-serif;
+}
+
+#h1-custom {
+	font-family: 'HelveticaNeue-Bold', 'nevis', Helvetica, Arial, sans-serif;
+	letter-spacing: 7px;
+	word-spacing: 5px;
+	font-size: 60px;
+	font-weight: 300;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: black;
+}
+
+#h1-custom > a:hover, a:focus {
+	color: #bfbfbf;
+	text-decoration: none;
+}
+
+#h4-custom {
+	font-family: 'HelveticaNeue-Bold', 'nevis', Helvetica, Arial, sans-serif;
+	text-align: center;
+	letter-spacing: 7px;
+	word-spacing: 5px;
+	color: #D3D3D3;
+	padding-bottom: 30px;
+}
+
+#nav-custom {
+	font-family: 'HelveticaNeue-Bold', 'nevis', Helvetica, Arial, sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #c3c3c3;
+	padding-bottom: 30px;
+}
+
+#nav-custom > a {
+	color: #c3c3c3;
+}
+
+#nav-custom > a:hover, a:focus {
+	color: #D3D3D3;
+	background-color: white;
+}
+
+#home-custom {
+	background-color: #f9f9f9;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#education-custom {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+}
+
+#experience-custom {
+	background-color: #f9f9f9;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+}
+
+#projects-custom {
+	background-color: #f9f9f9;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+#photo-custom {
+	padding-right: 0px;
+}
+
+#buttons-custom {
+	font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 5px;
+	text-align: center;
+	letter-spacing: 20px;
+	padding-top: 25px;
+}
+
+#buttonlink-custom > a:hover, a:focus {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+#buttons-custom > .btn {
+	border-radius: 0px;
+	letter-spacing: 1px;
+	background-color: black;
+	color: white;
+	font-size:12px;
+}
+
+#buttons-custom > .btn:hover, .btn:focus {
+	color: #D3D3D3;
+}
+
+#buttonlink-custom > .btn, .btn:active {
+	color: white;
+}
+
+#project-button {
+	font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 5px;
+	text-align: center;
+	letter-spacing: 20px;
+	margin-right: 0px;
+}
+
+#project-button > .btn {
+	border-radius: 0px;
+	letter-spacing: 1px;
+	background-color: black;
+	color: white;
+	font-size:12px;
+	position:absolute;
+    top: 10px;
+    left: 25px;
+}
+
+#project-button > .btn, .btn:active {
+	color: white;
+}
+
+#project-button > .btn:hover, .btn:focus {
+	color: #D3D3D3;
+}
+
+#text-custom {
+	font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#edutext-custom {
+	font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#edutext-link > a, a:active {
+	color: black;
+	text-decoration: underline;
+}
+
+#edutext-link > a:hover, a:focus {
+	text-decoration: none;
+}
+
+#copyright-custom {
+	padding-left:20px;
+	padding-top: 50px;
+	font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	position: fixed;
+    bottom: 0px;
+    z-index: 99;
+}
+
+#copyright-custom > a {
+	color: black;
+	text-decoration: underline;
+}
+
+#copyright-custom > a:hover, a:focus {
+	text-decoration: none;
+}
+
