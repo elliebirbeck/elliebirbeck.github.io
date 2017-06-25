@@ -10,7 +10,7 @@
     <meta name="description" content="Personal website of Ellie Birbeck - MEng Computer Science graduate of the University of Bristol">
   	<meta name="keywords" content="Ellie,Birbeck,cv,resume,website,portfolio,projects">
 
-    <title>Ellie Birbeck | Team Builder</title>
+    <title>Ellie Birbeck | Rate My Plate</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/site.css" rel="stylesheet">
@@ -43,32 +43,28 @@
 			  <li><a href="/">ABOUT</a></li>
 			  <li><a href="../education.html">EDUCATION</a></li>
 			  <li><a href="../experience.html">EXPERIENCE</a></li>
-			  <li><a class="active" href="../projects.html">PROJECTS</a></li>
+			  <li><a href="../projects.html" class="active">PROJECTS</a></li>
 			</ul>
 
 
 			<div class="row row text-content-row">
 
-				<p><b>PROJECT /</b> Team Builder / Jun 16
-				<p>Team Builder is a web app developed by myself and two other students over four weeks. It was intended to digitise the approach to creating teams for group projects, replacing the typical pen and paper form submissions and manual allocation.
-				<p>The application allows admin users to create forms, by adding questions and assigning them weightings based on importance. They can then distribute the form, and other users log in to submit their answers. When enough results have been returned, the admin can run our matching algorithm to automatically build teams of any size. The algorithm uses the question weightings and binary matches of answers between users to create balanced teams with optimised compatibilities.
-				<p>My role in the team was mainly front-end development, but I also contributed to the database design and added some back-end integration. Tools used in this project include Python, Flask, MongoDB, HTML, CSS, Javascript, JQuery, Bootstrap.
-				
+				<p><b>PROJECT /</b> Rate My Plate / Feb 17</p>
+				<p>In a 24-hour environment-themed hackathon, my team and I built a <a href="http://twitter.com/ratemyplate_" target="_blank">Twitter bot</a> (no longer running live) which calculates the carbon footprint of a meal from a tweeted photo.
+				<p>Third party Twitter API libraries were used to retrieve and process tweets, and then either the Python Natural Language Toolkit was used to determine the meal from a tweet with text content, or a model trained using TensorFlow was used to classify meals sent using photographs. A range of databases with different food and transportation sources and costs allowed the ingredients of the meal to be determined and the carbon footprint calculated. This information was then displayed visually on an interactive map using the Javascript Leaflet library, and returned to the user via a URL reply to their original tweet.
+				<p>My contributions to the work included implementation of all the bot functionality, and the front-end aspects of the resulting map webpage displayed to the user. The hackathon was sponsored by Boeing, who awarded our project the prize for 'Best Implemented Prototype'.
 				<p><br>
 
-    			<div class="col-sm-6"> 
-					<img src="../files/teambuilder-createform.png" class="img-responsive" alt="Team Builder">
-					<br>
-				</div>
+				<img src="../files/rmp-tweet1.png" class="img-responsive" alt="Rate My Plate Tweet">
+				<br>
+				<img src="../files/rmp-map1.png" class="img-responsive" alt="Rate My Plate Map">
+				<br>
+				<img src="../files/rmp-tweet2.png" class="img-responsive" alt="Rate My Plate Tweet">
+				<br>
+				<img src="../files/rmp-map2.png" class="img-responsive" alt="Rate My Plate Map">
+	
 
-				<div class="col-sm-6"> 
-					<img src="../files/teambuilder-results.png" class="img-responsive" alt="Team Builder">
-					<br>
-				</div>
-
-
-
-			</div>		
+			</div>
 
 			<br><br>
 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ellie Birbeck">
+    <meta name="description" content="Personal website of Ellie Birbeck - MEng Computer Science graduate of the University of Bristol">
+  	<meta name="keywords" content="Ellie,Birbeck,cv,resume,website,portfolio,projects">
+
+    <title>Ellie Birbeck | Tweets To Trades</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/site.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../files/favicon.ico" type="image/x-icon">
+  	<link rel="icon" href="../files/favicon.ico" type="image/x-icon">
+
+  	<script>
+	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  	ga('create', 'UA-92209326-1', 'auto');
+	  	ga('send', 'pageview');
+	</script>
+
+</head>
+
+<body>
+
+<!-- TITLE -->
+<h1><a href="/">ELLIE BIRBECK</a></h1>
+
+<div class="container">
+	<div class="row">
+
+	    <div class="col-sm-8 col-sm-offset-2">
+
+	    	<!-- NAVIGATION -->
+	      	<ul class="nav nav-justified">
+			  <li><a href="/">ABOUT</a></li>
+			  <li><a href="../education.html">EDUCATION</a></li>
+			  <li><a href="../experience.html">EXPERIENCE</a></li>
+			  <li><a href="../projects.html" class="active">PROJECTS</a></li>
+			</ul>
+
+
+			<div class="row row text-content-row">
+
+				<p><b>PROJECT /</b> Tweets To Trades / May 17
+				<p>The dissertation completed for my degree was titled 'Turning Tweets Into Trades - Sentiment Analysis for Directional Stock Price Predictions'. It was an individual research project involving three areas of study: machine learning, sentiment analysis, and automated trading. The aim of this project was to use machine learning algorithms to classify the content of stock-related tweets, in an attempt to predict directional price movements for use in an automated trading system. 
+				<p>A sentiment analysis based approach was taken, but unlike existing research, the system developed was founded on a different assumption where the stock price was used as the ground-truth in the learning process rather than the actual sentiment expressed. Another novel aspect of the work was the tailoring of algorithms to individual stocks, which allowed custom dictionaries of the most predictive words to be built for each specific stock. 
+				<p>The data pipeline for this project involved the tokenisation, vectorisation, and classification of historical tweets, and feature selection techniques based on measures of statistical significance were used to remove noise and reduce the dimensionality of the dataset. In terms of the learning process, a range of machine learning algorithms were tested and experimentation with the hyperparameter optimisation of these algorithms was performed. Additional quantitative aspects such as changing time frames, trading volume, and price history, were also considered.
+				<p>To assess the approach, the predictive accuracy of the classifier was evaluated, and the predictions were also used as input to an automated trading system to test the profitability of the algorithm. As if running live, hourly trading decisions were made over a one-month period resulting in a total of 468 trades placed. The algorithm performed significantly better than random chance, generating a return of 5.13%. This rate beat market returns for the month tested and outperformed two baseline sentiment analysis approaches considered. The results demonstrate that the stock-specific approach and the novel foundation of using stock price instead of true sentiment as the ground-truth, have clear value in making directional price predictions. The dissertation achieved a First Class mark of 80%.
+				<p>I also wrote a full business plan for an information subscription service for day traders to use the results of my research. The envisioned product comprises a web application accessible through a monthly subscription, which offers users a dashboard of information generated through the research. In addition to signals of buy or sell resulting from the directional price predictions, users also benefit from an analysis of opinion shift, real-time event detection and alerts, and the tailoring of algorithms to their personal portfolios. The business idea and plan, along with a pitch and product demo to a panel of investors, was also awarded a First Class mark of 80%.
+
+			</div>
+
+			<br><br>
+
+	    </div>
+
+
+	</div>
+</div>
+
+<!-- COPYRIGHT -->
+<p class="copyright">&copy 2017 <a href="https://github.com/elliebirbeck/elliebirbeck.github.io">Ellie Birbeck</a></p>
+</body>
+
+</html>

@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Ellie Birbeck">
-    <meta name="description" content="Ellie Birbeck Computer Science Student Personal Website">
+    <meta name="description" content="Personal website of Ellie Birbeck - MEng Computer Science graduate of the University of Bristol">
   	<meta name="keywords" content="Ellie,Birbeck,cv,resume,website,portfolio,projects">
 
     <title>Ellie Birbeck | Kaggle Competition</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/custom.css" rel="stylesheet">
+    <link href="../css/site.css" rel="stylesheet">
     <link rel="shortcut icon" href="../files/favicon.ico" type="image/x-icon">
   	<link rel="icon" href="../files/favicon.ico" type="image/x-icon">
 
@@ -28,41 +28,33 @@
 
 </head>
 
-<body id="body-custom">
+<body>
 
-<h1 id="h1-custom"><a href="../index.html" id="h1-custom">ELLIE BIRBECK</a></h1>
-<!--<h4 id="h4-custom">COMPUTER SCIENCE STUDENT</h4>-->
+<!-- TITLE -->
+<h1><a href="/">ELLIE BIRBECK</a></h1>
 
 <div class="container">
 	<div class="row">
 
-	    <div class="col-sm-2">
-	    	<!--empty column-->	
-	    </div>
+	    <div class="col-sm-8 col-sm-offset-2">
 
-
-	    <div class="col-sm-8">
-
-	    	<!--nav bar-->
-	      	<ul class="nav nav-justified" id="nav-custom">
-			  <li id="nav-custom"><a href="../index.html">ABOUT</a></li>
-			  <li id="nav-custom"><a href="../education.html">EDUCATION</a></li>
-			  <li id="nav-custom"><a href="../experience.html">EXPERIENCE</a></li>
-			  <li class="active" id="nav-custom"><a href="../projects.html">PROJECTS</a></li>
+	    	<!-- NAVIGATION -->
+	      	<ul class="nav nav-justified">
+			  <li><a href="/">ABOUT</a></li>
+			  <li><a href="../education.html">EDUCATION</a></li>
+			  <li><a href="../experience.html">EXPERIENCE</a></li>
+			  <li><a href="../projects.html" class="active">PROJECTS</a></li>
 			</ul>
 
 
-			<div class="row" id="experience-custom">
-				<div class="col-sm-12" id="edutext-custom">
+			<div class="row row text-content-row">
 
-					<p><p style="font-size: 14px"><b style="font-size: 14px">PROJECT :</b> Kaggle Competition</p>
-					<p>Kaggle is an organisation which hosts machine learning competitions to solve real-world problems, often sponsored by large companies or leading researchers. In March 2016 I took part in one of these competitions, where the aim was to classify types of crime occurring in San Francisco. 
-					<p>Given several hundred thousand pieces of data relating to previous crimes, including the date and time of the occurrence and the latitude and longitude of the location, I experimented with different feature sets and machine learning algorithms to develop a classifier. The algorithms tested were multi-layer perceptrons, support vector machines, naive Bayes, k-nearest neighbour, and random forests. 
-					<p>I extended the given feature set by creating additional spatial metrics such as distances to the city centre and police department districts, grid cell locations, and testing variations in format and type of temporal measurements. Experimenting with different machine learning algorithms and performing ablative analysis to understand the contributions of individual features allowed me to refine the final feature set and build the model. Tools used for this project were Weka, Java, and R.
-					<p>The competition was judged based on the resulting multi-class logarithmic loss of the classification. My classifier improved on a baseline logloss value of 3.65, reducing it by 28% to 2.61. The winning competition entry achieved 2.05. I hope to tackle another Kaggle competition in the future.
-					<p>
+				<p><b>PROJECT /</b> San Francisco Crime Classification / Mar 16</p>
+				<p>I took part in a machine learning competition on <a href="https://www.kaggle.com" target="_blank">Kaggle</a>, an organisation which hosts data science competitions sponsered by large companies or leading researchers, in order to solve real-world problems.
+				<p>Given several hundred thousand pieces of data relating to crimes that had occured across the city of San Francisco, the aim of the competition was to accurately classify new data instances by the type of crime, such as arson or theft. To develop a classifier I experimented with different feature sets, and a range of machine learning algorithms including Multi-Layer Perceptrons, Support Vector Machines, Naive Bayes, k-Nearest Neighbour, and Random Forests. 
+				<p>I extended the given feature set by creating additional spatial metrics such as distances to the city centre and police department districts, grid cell locations, and testing variations in format and type of temporal measurements. Experimenting with different machine learning algorithms and performing ablative analysis to understand the contributions of individual features allowed me to refine the final feature set and build the model. Tools used for this project were Weka, Java, and R.
+				<p>The competition was judged based on the resulting multi-class logarithmic loss of the classification. My classifier improved on a baseline logloss value of 3.65, reducing it by 28% to 2.61. The winning competition entry achieved 2.05. A <a href="../files/sanfran-paper.pdf">report</a> on this project details the implementation and evaluation of results.
 
-				</div>	
 			</div>
 
 			<br><br>
@@ -70,16 +62,13 @@
 	    </div>
 
 
-	    <div class="col-sm-2">
-	    	<!--empty column-->	
-	    </div>
-
-
 	</div>
 </div>
 
-<!--copyright-->
-<p id="copyright-custom">&copy 2017 <a href="https://github.com/elliebirbeck/elliebirbeck.github.io">Ellie Birbeck</a></p>
+<!-- COPYRIGHT -->
+<p class="copyright">&copy 2017 <a href="https://github.com/elliebirbeck/elliebirbeck.github.io">Ellie Birbeck</a></p>
+
+</body>
 </body>
 
 </html>
