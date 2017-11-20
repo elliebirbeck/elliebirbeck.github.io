@@ -34,17 +34,17 @@
 
   <div class="content">
 
-    <p class="project-title">A Twitter bot for the environment</p>
-    <p class="project-date"> Feb 2017</p>
+    <p class="project-title">Predicting driver density in Bogotá</p>
+    <p class="project-date"> Sep 2017</p>
     <hr>
 
-    In a 24-hour hackathon, my team and I built a <a href="http://twitter.com/ratemyplate_" target="_blank">Twitter bot</a> (no longer running live) which calculates the carbon footprint of a meal from a tweet.</p>
+    <p>Whilst working at a start-up in Colombia I was tasked with building a machine learning system to predict where drivers are needed across the city at any given time. </p>
 
-    <p>The bot identified the meal of tweeted <a href="#tweet1">photos</a><a href="#_" class="lightbox" id="tweet1"><img src="../img/rmp1.png"></a> with a model developed using TensorFlow, and regular tweets were parsed using the Python Natural Language Toolkit. A range of databases with different food and transportation sources and costs allowed the ingredients of the meal to be determined and the carbon footprint calculated. This information was displayed on an interactive map and <a href="#tweet2">returned</a><a href="#_" class="lightbox" id="tweet2"><img src="../img/rmp2.png"></a> to the user via an automated reply system.</p>
-
-    <p class="project-next"><a href="stressless.html">next project ></a></p>
-    <p class="project-next"><a href="tweetstotrades.html">< prev project</a></p>
+    <p>This involved re-engineering of historic data to aggregate densities of drivers per hour and location (a grid cell system of locations was created using a method based on geohashing). An XGBoost approach was used to build the model, and an API built to deploy it. One main function was to predict densities across the whole city for a <a href="#map">heatmap</a><a href="#_" class="lightbox" id="map"><img src="../img/map.png"></a> display, built with Dart and used by the Operations team to visualise real-time and future predictions. Specific location suggestions for individual drivers could also be requested, using a matching algorithm developed to consider the driver's distance to high density locations along with the locations of other drivers in the city.</p>
+    
+    <p class="project-next"><a href="stockwatch.html">next project ></a></p>
 
   </div>
 
 </body>
+
