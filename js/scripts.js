@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // list of colours for link hover states
-  var colors = ['#ffe01c', '#ff46a2', '#ff9630', '#26e4bc', '#ec2945', '#307fff'];
+  var colors = ['#ffe01c', '#ff46a2', '#ff9630', '#32d476', '#ec2945', '#307fff'];
   var last_color;
   var prev_bg;
   var random;
@@ -15,6 +15,7 @@ $(document).ready(function() {
     $(this).css('color', 'white');
     $(this).css('background-color', random);
     $(this).css('border-bottom-color', random);
+    $(this).css('text-decoration', 'none');
     last_color = random;
   });
 
@@ -23,6 +24,7 @@ $(document).ready(function() {
       $(this).css('color', 'black');
       $(this).css('background-color', 'white');
       $(this).css('border-bottom-color', 'black');
+      $(this).css('text-decoration', 'none');
   });
 
   // resets hover states on browser back button press
@@ -31,5 +33,6 @@ $(document).ready(function() {
         window.location.reload(); 
     }
   });
+
 
 });
